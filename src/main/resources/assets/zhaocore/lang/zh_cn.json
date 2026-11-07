@@ -1,0 +1,8 @@
+{
+  "attribute.name.zhaocore.fire_damage_resistance": "火焰伤害抗性",
+  "attribute.name.zhaocore.headshot_rate": "爆头率",
+  "attribute.name.zhaocore.received_headshot_rate": "被爆头率",
+  "effect.zhaocore.headshot_conversion": "爆头转换",
+  "effect.zhaocore.tactical_visor": "追踪子弹",
+  "tooltip.tacz.attachment.apex_attachments": "巅峰配件"
+}

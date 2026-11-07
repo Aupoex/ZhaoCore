@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.zhaocore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "zhaocore.refmap.json",
+  "mixins": [
+    "DetonationProcedureMixin",
+    "EntityUtilMixin",
+    "LivingEntityMixin",
+    "LivingEntityPoisonWitherMixin",
+    "MobEffectMixin",
+    "PerfectBlockEnchantmentMixin",
+    "PhantomMoveControlMixin",
+    "TagLoaderMixin",
+    "tacz.AbstractGunItemMixin",
+    "tacz.AttachmentTypeInvoker",
+    "tacz.AttachmentTypeMixin",
+    "tacz.CommonAssetsManagerMixin"
+  ],
+  "client": [
+    "tacz.GunAttachmentSlotMixin",
+    "tacz.AttachmentRenderMixin",
+    "tacz.BedrockGunModelMixin",
+    "tacz.ClientAssetsManagerMixin",
+    "tacz.GunRefitScreenMixin",
+    "tacz.MouseHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
